@@ -161,7 +161,7 @@ export default function Docs() {
           <div>© {new Date().getFullYear()} Anya &amp; Murali · saavn/api</div>
           <div className="mt-2">
             All music &amp; data belong to <a href="https://www.jiosaavn.com" target="_blank" rel="noreferrer noopener" className="underline underline-offset-4 hover:text-foreground">JioSaavn</a> ·
-            reference: <a href="https://github.com/sumitkolhe/jiosaavn-api" target="_blank" rel="noreferrer noopener" className="underline underline-offset-4 hover:text-foreground">sumitkolhe/jiosaavn-api</a>
+            
           </div>
         </div>
       </footer>
