@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/images/logo.png" alt="saavn/api" width="140" />
+<img src="./public/images/logo.png" alt="saavn/api" width="70%" />
 
 # saavn/api
 
