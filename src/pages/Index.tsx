@@ -364,7 +364,7 @@ export default function Index() {
               <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-primary">Credits</div>
               <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
                 <li>All music &amp; data © <a href="https://www.jiosaavn.com" target="_blank" rel="noreferrer noopener" className="text-foreground underline-offset-4 hover:underline">JioSaavn</a> (Jio Platforms)</li>
-                <li>Reference: <a href="https://github.com/sumitkolhe/jiosaavn-api" target="_blank" rel="noreferrer noopener" className="text-foreground underline-offset-4 hover:underline">sumitkolhe/jiosaavn-api</a></li>
+                
               </ul>
             </div>
           </div>
