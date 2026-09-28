@@ -190,39 +190,7 @@ const { data } = await res.json();
 console.log(data.results[0].downloadUrl); // direct CDN URLs, ready to play
 ```
 
-**cURL**
 
-```bash
-curl "https://<your-deploy>/api/songs?ids=5WXAlMNt,9BjJPi9M"
-curl "https://<your-deploy>/api/artists/459320/songs?sortBy=latest&sortOrder=desc"
-```
-
----
-
-## 🗂️ Project structure
-
-```text
-Saavn-Api/
-├─ api/
-│  └─ index.js              bundled serverless function (built by scripts/build-api.mjs)
-├─ public/
-│  └─ images/               logo, hero, banner, stack (local — no external hosts)
-├─ scripts/
-│  └─ build-api.mjs         esbuild bundler for the Node function
-├─ server/                  Express app + JioSaavn domain layer
-│  ├─ app.ts                routes, error handling, CORS
-│  ├─ dev.ts                local dev server (:3001)
-│  ├─ services.ts           service registry
-│  ├─ shared.ts             response envelopes, credits + cache presets
-│  ├─ vercel-entry.ts       Vercel handler wrapper
-│  └─ jiosaavn/             services, use-cases, models
-├─ src/                     Vite + React frontend
-├─ index.html
-├─ vercel.json              region + rewrites + function config
-└─ vite.config.ts
-```
-
----
 
 ## 👩‍💻 Creators
 
