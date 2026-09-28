@@ -265,6 +265,6 @@ This is an **unofficial** project and is **not affiliated with, endorsed by, or 
 
 <div align="center">
 
-Made with 💗 by **Anya** & **Murali** · Powered by **JioSaavn** data · Reference: [sumitkolhe/jiosaavn-api](https://github.com/sumitkolhe/jiosaavn-api)
+Made with 💗 by **Anya** & **Murali** · Powered by **JioSaavn** data 
 
 </div>
