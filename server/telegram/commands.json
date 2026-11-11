@@ -1,0 +1,11 @@
+[
+  { "command": "start", "description": "Start the bot" },
+  { "command": "help", "description": "Help menu & all features" },
+  { "command": "song", "description": "Search & download a song" },
+  { "command": "album", "description": "Search albums" },
+  { "command": "artist", "description": "Search artists" },
+  { "command": "playlist", "description": "Search playlists" },
+  { "command": "random", "description": "Surprise me with a random song" },
+  { "command": "about", "description": "About & credits" },
+  { "command": "ping", "description": "Check bot latency" }
+]
